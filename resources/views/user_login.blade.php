@@ -110,7 +110,9 @@
         <div id="first">
           <div class="myform form">
             <div class="logo mb-3 text-center">
-              <img src="{{ asset('assets/images/Logo_FYP.png') }}" alt="Logo" class="img-fluid">
+              <a href="{{ url('/') }}">
+                <img src="{{ asset('assets/images/Logo_FYP.png') }}" alt="Logo" class="img-fluid">
+              </a>
               <h2 class="recyclify-title">RECYCLIFY</h2>
             </div>
             <br>
