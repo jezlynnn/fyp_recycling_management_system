@@ -15,7 +15,7 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
 
-    <!-- Favicon -->
+    <!-- Browser Logo -->
     <link rel="icon" type="image/png" href="{{ asset('assets/images/Logo_FYP.png') }}">
 
     <style>
@@ -109,7 +109,9 @@
                 <div id="first">
                     <div class="myform form">
                         <div class="logo mb-3 text-center">
-                            <img src="{{ asset('assets/images/Logo_FYP.png') }}" alt="Logo" class="img-fluid">
+                            <a href="{{ url('/') }}">
+                                <img src="{{ asset('assets/images/Logo_FYP.png') }}" alt="Logo" class="img-fluid">
+                            </a>
                             <h2 class="recyclify-title">RECYCLIFY</h2>
                         </div>
                         <br>
