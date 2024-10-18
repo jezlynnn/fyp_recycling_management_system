@@ -96,10 +96,6 @@
     #first {
       width: 100%;
     }
-
-    .potta-one {
-      font-family: 'Potta One', cursive;
-    }
   </style>
 </head>
 
