@@ -133,7 +133,7 @@
               </div>
               <br>
               <div class="form-group">
-                <p class="text-center"><a href="#" id="forgot_password" class="link-green">Forgot Password?</a></p>
+                <p class="text-center"><a href="{{ url('/forgotpassword') }}" id="forgot_password" class="link-green">Forgot Password?</a></p>
               </div>
               <br>
               <div class="form-group">
