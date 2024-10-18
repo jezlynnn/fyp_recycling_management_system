@@ -1,3 +1,8 @@
+/* Global CSS */
+.potta-one {
+    font-family: "Potta One", cursive;
+}
+
 /*Title Design used in Login & Register */
 .recyclify-title {
     font-family: "Rubik Bubbles", cursive; /* Use cursive as fallback */
@@ -79,4 +84,115 @@
     line-height: 1; /* Ensure line-height is 1 to avoid misalignment */
     border: 1px solid rgba(0, 0, 0, 0.2); /* Optional: Add a border */
     display: block;
+}
+
+/* Landing Page*/
+/* Header Styles */
+header {
+    width: -webkit-fill-available;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: "Rubik Bubbles", cursive;
+    font-size: 1.2rem;
+    color: #699f7e;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    font-family: "Potta One", cursive;
+    font-size: 0.8rem;
+    color: #699f7e;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #a0d483;
+}
+
+.logo-img {
+    width: 50px;
+    height: auto;
+    margin-right: 5px;
+}
+
+/* Main Content Styles */
+.main-content {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between columns */
+    align-items: center; /* Center content vertically */
+    margin: 20px; /* Space around main content */
+    padding: 80px 20px 20px; /* Add top padding (e.g., 80px) */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.main-text {
+    flex: 1; /* Take up remaining space */
+    padding-right: 20px; /* Space between text and image */
+}
+
+.main-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-image img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Footer Styles */
+footer {
+    position: relative;
+    margin-top: 20px;
+}
+
+.footer-layer-two {
+    background-color: #699f7e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+}
+
+.social-icons {
+    margin: 10px 0;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #a0d483;
+}
+
+.footer-text {
+    font-family: "PT Sans", sans-serif;
+    font-size: 0.9rem;
 }
