@@ -1,0 +1,38 @@
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    height: 100vh; /* Full viewport height */
+    background-color: #fffff5; /* Set background color */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.myform {
+    position: relative;
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack children vertically */
+    padding: 1rem;
+    width: 100%;
+    background-color: #fff; /* White background for the form */
+    border: 1px solid rgba(0, 0, 0, 0.2); /* Border */
+    border-radius: 1.1rem; /* Rounded corners */
+    max-width: 600px; /* Maximum width for the form */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow for 3D effect */
+}
+
+.mybtn {
+    border-radius: 50px;
+}
+
+form .error {
+    color: #ff0000; /* Error message color */
+}
+
+#second {
+    display: none; /* Hide second form initially */
+}

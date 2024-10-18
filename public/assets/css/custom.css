@@ -1,0 +1,82 @@
+/*Title Design used in Login & Register */
+.recyclify-title {
+    font-family: "Rubik Bubbles", cursive; /* Use cursive as fallback */
+    font-size: 2rem; /* Adjust the size as needed */
+    margin-top: 10px; /* Adjust the margin as needed */
+    color: #699f7e; /* Set the text color */
+}
+
+/* Hover design for links in Login & Register*/
+.link-green {
+    color: #66a17f; /* Default green color */
+    transition: color 0.3s; /* Smooth transition */
+}
+
+.link-green:hover {
+    color: #a0d483; /* Change to a different color on hover */
+}
+
+/* Input field design used in login & register process */
+.input-container {
+    display: flex;
+    flex-direction: column; /* Stack input groups vertically */
+    align-items: center; /* Center align the input fields */
+    width: 100%;
+}
+
+.input-group {
+    width: 80%; /* Adjust the width as needed */
+    max-width: 400px; /* Optional: Limit the maximum width */
+    margin-bottom: 1.5rem; /* Space between components */
+}
+
+.login-input,
+.registration-input {
+    border-radius: 25px; /* Rounder corners */
+    border: 1px solid rgba(0, 0, 0, 0.2); /* Optional: Add a border */
+    height: 45px; /* Consistent height for input */
+    line-height: 1; /* Ensure line-height is 1 to avoid misalignment */
+    padding-left: 45px; /* Add padding to the left to create space for the icon */
+}
+
+.input-group-text {
+    border: none; /* Remove border */
+    background-color: transparent; /* Make background transparent */
+    border-radius: 25px 0 0 25px; /* Round left corners */
+    color: #aaa; /* Icon color */
+}
+
+.input-group-text i {
+    font-size: 14px; /* Icon size */
+}
+
+.input-group-text:hover {
+    background-color: #eaeaea; /* Light gray on hover */
+}
+
+.pt-sans {
+    font-family: "PT Sans"; /* Use cursive as fallback */
+}
+
+.input-group-icon {
+    position: relative;
+    width: 100%;
+}
+
+.input-group-icon i {
+    position: absolute;
+    left: 15px; /* Adjust this value to move the icon closer/further from the left */
+    top: 50%;
+    transform: translateY(-120%); /* Ensures vertical centering */
+    color: #aaa; /* Icon color */
+    font-size: 16px; /* Adjust the icon size */
+}
+
+.input-group-icon input {
+    padding-left: 45px; /* Add padding to the left to create space for the icon */
+    border-radius: 25px; /* Rounded corners for the input */
+    height: 45px; /* Consistent height for input */
+    line-height: 1; /* Ensure line-height is 1 to avoid misalignment */
+    border: 1px solid rgba(0, 0, 0, 0.2); /* Optional: Add a border */
+    display: block;
+}
