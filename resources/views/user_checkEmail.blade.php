@@ -111,7 +111,11 @@
                         <p style="color:#699f7e; text-align: center">We have sent a password recover instructions to your email.</p>
                         <br>
                         <div class="col-md-12 text-center" style="padding-bottom:50px">
+<<<<<<< Updated upstream
                             <button type="button" class="btn btn-block mybtn btn-primary potta-one" style="background-color: #A0D483; border: none; outline: none; font-size:12px;" onclick="window.location.href='{{ url('/login') }}'">Skip, I’ll confirm later</button>
+=======
+                            <button type="button" class="btn btn-block mybtn btn-primary potta-one" style="background-color: #A0D483; border: none; outline: none; font-size:12px;">Skip, I’ll confirm later</button>
+>>>>>>> Stashed changes
                         </div>
                         <div class="form-group">
                             <p class="text-center" style="color: #699f7e;">Did not receive email? Check your spam filter, or <a href="{{ url('/forgotpassword') }}" id="signup" class="link-green" style="font-weight: 700;">try another email address</a></p>
