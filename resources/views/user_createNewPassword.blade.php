@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forgot Password</title>
+    <title>Create New Password</title>
     <link href="{{ asset('assets/css/bootstrap.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/custom.css') }}" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
@@ -106,27 +106,31 @@
                 <div id="first">
                     <div class="myform form">
                         <div class="logo mb-3 text-center">
-                            <h3 class="recyclify-title" style="font-size:20px; padding-top: 20px">Did you forgot your password?</h3>
+                            <h3 class="recyclify-title" style="font-size:20px; padding-top: 20px">Create New Password</h3>
                         </div>
-                        <p style="color:#699f7e; text-align: center">Enter your email address you’re using for your account below and we will send you a password reset link through email</p>
+                        <p style="color:#699f7e; text-align: center; padding-bottom:20px">Your new password must be different from previous used password.</p>
                         <br>
                         <form action="" method="post" name="forgotpassword">
-                            <!-- Email field input -->
+                            <!-- Password field input -->
                             <div class="input-container">
                                 <div class="input-group-icon">
-                                    <i class="fa fa-envelope"></i>
-                                    <input type="email" name="email" class="form-control potta-one login-input" style="font-size: 12px;" id="email" aria-describedby="emailHelp" placeholder="Email Address" required>
+                                    <i class="fa fa-lock"></i>
+                                    <input type="password" name="password" id="password" class="form-control potta-one login-input" style="font-size: 12px;" placeholder="Password" required>
+                                </div>
+                            </div>
+                            <!-- Confirm Password field input -->
+                            <div class="input-container" style="padding-bottom: 30px">
+                                <div class="input-group-icon">
+                                    <i class="fa fa-lock"></i>
+                                    <input type="password" name="confirmpassword" id="confirmpassword" class="form-control potta-one login-input" style="font-size: 12px;" placeholder="Confirm Password" required>
                                 </div>
                             </div>
                             <!-- Button -->
                             <div class="col-md-12 text-center">
-                                <button type="submit" class="btn btn-block mybtn btn-primary potta-one" style="background-color: #A0D483; border: none; outline: none; font-size: 12px">Continue</button>
+                                <button type="submit" class="btn btn-block mybtn btn-primary potta-one" style="background-color: #A0D483; border: none; outline: none; font-size:12px">Reset Password</button>
                             </div>
                             <br>
                             <br>
-                            <div class="form-group">
-                                <p class="text-center">Back to <a href="{{ url('/login') }}" id="signup" class="link-green">Login</a></p>
-                            </div>
                         </form>
                     </div>
                 </div>
