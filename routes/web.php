@@ -17,3 +17,7 @@ Route::get('/signup', function () {
 Route::get('/forgotpassword', function () {
     return view('user_forgotPassword');
 });
+
+Route::get('/checkemail', function () {
+    return view('user_checkEmail');
+});
