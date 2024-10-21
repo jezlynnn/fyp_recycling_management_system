@@ -17,3 +17,14 @@ Route::get('/signup', function () {
 Route::get('/forgotpassword', function () {
     return view('user_forgotPassword');
 });
+<<<<<<< Updated upstream
+=======
+
+Route::get('/checkemail', function () {
+    return view('user_checkEmail');
+});
+
+Route::get('/newpassword', function () {
+    return view('user_createNewPassword');
+});
+>>>>>>> Stashed changes
