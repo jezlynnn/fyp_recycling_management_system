@@ -120,7 +120,7 @@
                             </div>
                             <!-- Button -->
                             <div class="col-md-12 text-center">
-                                <button type="submit" class="btn btn-block mybtn btn-primary potta-one" style="background-color: #A0D483; border: none; outline: none;">Continue</button>
+                                <button type="submit" class="btn btn-block mybtn btn-primary potta-one" style="background-color: #A0D483; border: none; outline: none; font-size: 12px">Continue</button>
                             </div>
                             <br>
                             <br>
